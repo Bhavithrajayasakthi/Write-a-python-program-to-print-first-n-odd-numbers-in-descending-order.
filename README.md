@@ -1,1 +1,16 @@
 # Write-a-python-program-to-print-first-n-odd-numbers-in-descending-order.
+n=int(input("enter the limit"))
+if n%2==0:
+    for i in range(n-1,0,-2):
+        print(i)
+else:
+    for i in range(n,0,-2):
+        print(i)
+
+Output:
+enter the limit2
+1
+enter the limit 3
+3
+1
+
